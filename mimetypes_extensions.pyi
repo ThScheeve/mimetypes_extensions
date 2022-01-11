@@ -1,0 +1,29 @@
+import mimetypes
+import sys
+from _typeshed import StrPath
+from typing import Dict, List, Optional, Sequence, Tuple
+
+knownfiles: List[str]
+inited: bool
+
+class MimeTypes(mimetypes.MimeTypes):
+    def get_all_extensions(self, type: str, strict: bool = ...) -> List[str]: ...
+
+if sys.version_info >= (3, 8):
+    def guess_type(url: StrPath, strict: bool = ...) -> Tuple[Optional[str], Optional[str]]: ...
+else:
+    def guess_type(url: str, strict: bool = ...) -> Tuple[Optional[str], Optional[str]]: ...
+def get_all_extensions(type: str, strict: bool = ...) -> List[str]: ...
+def guess_all_extensions(type: str, strict: bool = ...) -> List[str]: ...
+def guess_extension(type: str, strict: bool = ...) -> Optional[str]: ...
+def add_type(type: str, ext: str, strict: bool = ...) -> None: ...
+def init(files: Optional[Sequence[str]] = ...) -> None: ...
+def read_mime_types(file: str) -> Optional[Dict[str, str]]: ...
+
+suffix_map: Dict[str, str]
+encodings_map: Dict[str, str]
+types_map: Dict[str, str]
+common_types: Dict[str, str]
+image_file_extensions: List[str]
+audio_file_extensions: List[str]
+video_file_extensions: List[str]
