@@ -4,7 +4,7 @@ import sys
 import unittest
 from test import test_mimetypes, support
 
-import mimetypes_extensions
+from mimetypes_extensions import mimetypes_extensions
 
 
 def setUpModule():

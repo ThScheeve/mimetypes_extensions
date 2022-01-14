@@ -2,6 +2,28 @@
 Mimetypes Extensions
 ====================
 
+.. raw:: html
+
+  <p align="center">
+    <a href="https://pypi.org/project/mimetypes_extensions/">
+      <img src="https://img.shields.io/pypi/pyversions/mimetypes_extensions" alt="Supported versions"/>
+    </a>
+    <a href="https://pypi.org/project/mimetypes_extensions/">
+      <img src="https://img.shields.io/pypi/v/mimetypes_extensions" alt="PyPI Package latest release"/>
+    </a>
+    <a href="https://github.com/ThScheeve/mimetypes_extensions/blob/main/LICENSE">
+      <img src="https://img.shields.io/pypi/l/mimetypes_extensions" alt="License"/>
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/ThScheeve/mimetypes_extensions/issues/">
+      <img src="https://img.shields.io/github/issues-raw/ThScheeve/mimetypes_extensions" alt="Open issues"/>
+    </a>
+    <a href="https://github.com/ThScheeve/mimetypes_extensions/issues">
+      <img src="https://img.shields.io/github/issues-closed-raw/ThScheeve/mimetypes_extensions" alt="Closed issues"/>
+    </a>
+  </p>
+
 Overview
 ========
 
